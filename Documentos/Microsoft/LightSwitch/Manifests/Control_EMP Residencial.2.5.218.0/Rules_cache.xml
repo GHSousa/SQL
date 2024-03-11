@@ -1,0 +1,80 @@
+<Catalog Name="Rules" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.Runtime.Rules.Implementation.BuiltInStructuralValidatorFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Rules.Implementation.DecimalValidatorFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch:@DecimalConstraint" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Rules.Implementation.LengthValidatorFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch:@MaxLength" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Rules.Implementation.RangeValidatorFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch:@Range" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Rules.IValidationCodeFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

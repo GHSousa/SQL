@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfColumnSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ColumnSetting>
+    <Index>0</Index>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>150</Width>
+  </ColumnSetting>
+</ArrayOfColumnSetting>

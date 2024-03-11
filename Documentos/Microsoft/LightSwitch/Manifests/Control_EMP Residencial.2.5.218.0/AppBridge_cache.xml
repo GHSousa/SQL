@@ -1,0 +1,34 @@
+<Catalog Name="AppBridge" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.AppBridge.Implementation.AppBridgeServiceProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.AppBridge.Internal.IAppBridgeService" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_AppBridgeService" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.AppBridge.Internal.IAppBridgeService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.AppBridge.Implementation.Client.WebServiceChannelConfig" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.AppBridge.Implementation.IChannelConfig" MemberTypes="32">
+        <Metadata>
+          <Key Name="ChannelType" Enumerable="False">
+            <Value Text="WebClient" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.AppBridge.Implementation.IChannelConfig" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

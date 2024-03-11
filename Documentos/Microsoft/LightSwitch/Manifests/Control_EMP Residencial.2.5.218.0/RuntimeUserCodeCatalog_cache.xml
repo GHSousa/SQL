@@ -1,0 +1,101 @@
+<Catalog Name="RuntimeUserCodeCatalog" SchemaVersion="12.0.21005.1">
+  <Part Type="LightSwitchApplication.ClientModuleLoader" Assembly="Control_EMP Construtora.Client, Version=2.5.217.0, Culture=neutral, PublicKeyToken=null" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="LightSwitchApplication" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="LightSwitchApplication.Implementation.ApplicationFactory" Assembly="Control_EMP Construtora.Client, Version=2.5.217.0, Culture=neutral, PublicKeyToken=null" IsDisposalRequired="False">
+    <Metadata>
+      <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+        <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+      </Key>
+    </Metadata>
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.ClientGenerated.IClientApplicationFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.ClientGenerated.IClientApplicationFactory" ValueType="System.String" />
+          </Key>
+          <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+            <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="LightSwitchApplication.Implementation.ModuleFactory" Assembly="Control_EMP Construtora.Client, Version=2.5.217.0, Culture=neutral, PublicKeyToken=null" IsDisposalRequired="False">
+    <Metadata>
+      <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+        <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+      </Key>
+    </Metadata>
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.IModuleFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="LightSwitchApplication" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.IModuleFactory" ValueType="System.String" />
+          </Key>
+          <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+            <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="LightSwitchApplication.Implementation.__DataServiceFactory" Assembly="Control_EMP Construtora.Client, Version=2.5.217.0, Culture=neutral, PublicKeyToken=null" IsDisposalRequired="False">
+    <Metadata>
+      <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+        <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+      </Key>
+    </Metadata>
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Internal.IDataServiceFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Internal.IDataServiceFactory" ValueType="System.String" />
+          </Key>
+          <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+            <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="LightSwitchApplication.Implementation.__TypeMapping" Assembly="Control_EMP Construtora.Client, Version=2.5.217.0, Culture=neutral, PublicKeyToken=null" IsDisposalRequired="False">
+    <Metadata>
+      <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+        <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+      </Key>
+    </Metadata>
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Internal.ITypeMappingProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Internal.ITypeMappingProvider" ValueType="System.String" />
+          </Key>
+          <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+            <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

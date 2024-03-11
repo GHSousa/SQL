@@ -1,0 +1,184 @@
+<Catalog Name="SubsystemLoader" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.AppBridge.Loader.AppBridgeLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Common.AppBridge" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.Implementation.Loader.LoggingServiceLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Common.BaseServices" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.ShellLoader.ShellLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.Shell" ValueType="System.String" />
+          </Key>
+          <Key Name="DependsOn" Enumerable="True">
+            <Value Text="Runtime.Model" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.RuntimeLoader.RuntimeUserCodeSubsystemLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.UserCode" ValueType="System.String" />
+          </Key>
+          <Key Name="DependsOn" Enumerable="True">
+            <Value Text="Runtime.Presentation" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.RuntimeLoader.ModelLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.Model" ValueType="System.String" />
+          </Key>
+          <Key Name="DependsOn" Enumerable="True">
+            <Value Text="Common.BaseServices" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.RuntimeLoader.PresentationLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.Presentation" ValueType="System.String" />
+          </Key>
+          <Key Name="DependsOn" Enumerable="True">
+            <Value Text="Runtime.Shell" ValueType="System.String" />
+            <Value Text="Runtime.Model" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.RuntimeLoader.RulesLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="DependsOn" Enumerable="True">
+            <Value Text="Runtime.Model" ValueType="System.String" />
+          </Key>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.Rules" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.RuntimeLoader.RuntimeExtensionSubsystemLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="DependsOn" Enumerable="True">
+            <Value Text="Runtime.Model" ValueType="System.String" />
+          </Key>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.Extensions" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.RuntimeLoader.ServicesLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.Services" ValueType="System.String" />
+          </Key>
+          <Key Name="DependsOn" Enumerable="True">
+            <Value Text="Runtime.Model" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.RuntimeLoader.UtilitiesLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Runtime.Utilities" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

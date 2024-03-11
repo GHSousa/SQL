@@ -1,0 +1,7 @@
+<ProcessedManifests>
+  <Files>
+    <File>Microsoft.LightSwitch.Base.Client.Manifest.xml</File>
+    <File>Microsoft.LightSwitch.Client.Internal.Manifest.xml</File>
+    <File>Microsoft.LightSwitch.Model.Xaml.Client.Manifest.xml</File>
+  </Files>
+</ProcessedManifests>

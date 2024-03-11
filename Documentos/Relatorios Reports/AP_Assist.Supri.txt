@@ -1,0 +1,1528 @@
+Relatório de permissões dos perfis do RM Nucleus
+ 
+Perfil:  AP_ASSIST.SUPRI         Nome do Perfil: APROVA ASSIST. SUPRIMENTOS
+ 
+    Menus com permissão de acesso
+ 
+            [01] Cadastros
+ 
+                [01.01] Estoque, Compras e Faturamento
+ 
+                    [01.01.01] Produtos
+ 
+                        [01.01.01.01] Incluir Produtos
+ 
+                        [01.01.01.02] Excluir Produtos
+ 
+                        [01.01.01.03] Editar Produtos
+ 
+                        [01.01.01.04] Incluir filtros produtos
+ 
+                        [01.01.01.05] Editar filtros produtos
+ 
+                        [01.01.01.06] Excluir filtros produtos
+ 
+                        [01.01.01.07] Reajustar Preços de Produto
+ 
+                        [01.01.01.08] Aplicar Tributos ao Produto
+ 
+                        [01.01.01.09] Aplicar Cliente/fornecedor
+ 
+                        [01.01.01.10] Aplicar Comissão Funcionário
+ 
+                        [01.01.01.11] Visualizar Lote
+ 
+                        [01.01.01.12] Incluir Lote
+ 
+                        [01.01.01.13] Excluir Lote
+ 
+                        [01.01.01.14] Editar Lote
+ 
+                        [01.01.01.15] Vincular/Desvincular Produto a EPI do RM Vitae
+ 
+                        [01.01.01.16] Listar ou Imprimir Dados
+ 
+                        [01.01.01.17] Visualizar Produto Composto
+ 
+                        [01.01.01.18] Incluir Produto Composto
+ 
+                        [01.01.01.19] Excluir Produto Composto
+ 
+                        [01.01.01.20] Editar Produto Composto
+ 
+                        [01.01.01.21] Visualizar Número de Série
+ 
+                        [01.01.01.22] Incluir Número de Série
+ 
+                        [01.01.01.23] Excluir Número de Série
+ 
+                        [01.01.01.24] Editar Número de Série
+ 
+                        [01.01.01.25] Copiar Produtos para Tabela de Preço
+ 
+                        [01.01.01.26] Importar Código CEST
+ 
+                    [01.01.02] Grupo de Produtos
+ 
+                        [01.01.02.01] Incluir grupo de produtos
+ 
+                        [01.01.02.02] Excluir grupo de produtos
+ 
+                        [01.01.02.03] Editar grupo de produtos
+ 
+                    [01.01.03] Local de Estoque
+ 
+                        [01.01.03.01] Incluir Locais de Estoque
+ 
+                        [01.01.03.02] Excluir Locais de Estoque
+ 
+                        [01.01.03.03] Editar Locais de Estoque
+ 
+                        [01.01.03.04] Incluir Endereçamento
+ 
+                        [01.01.03.05] Excluir Endereçamento
+ 
+                        [01.01.03.06] Editar Endereçamento
+ 
+                    [01.01.04] Fabricantes
+ 
+                    [01.01.05] Local para Entrega
+ 
+                    [01.01.06] Transportadora
+ 
+                    [01.01.07] Responsável
+ 
+                    [01.01.08] Tabelas de Classificação
+ 
+                        [01.01.08.01] Tipo do Produto
+ 
+                        [01.01.08.02] Tipo de Aplicação
+ 
+                        [01.01.08.03] Grupo de Produto
+ 
+                        [01.01.08.04] Classificação Contábil
+ 
+                        [01.01.08.05] Situação do Fornecedor
+ 
+                    [01.01.14] Tabelas Auxiliares
+ 
+                        [01.01.14.01] Unidade
+ 
+                            [01.01.14.01.01] Incluir Unidades
+ 
+                [01.02] Financeiros
+ 
+                    [01.02.01] Clientes / Fornecedores
+ 
+                        [01.02.01.06] Acessar Cliente
+ 
+                        [01.02.01.07] Acessar Fornecedor
+ 
+                        [01.02.01.09] Incluir Filtro de Cliente/Fornecedor
+ 
+                        [01.02.01.12] Exportar Visão para Arquivo no Formato CSV
+ 
+                [01.04] Contábeis
+ 
+                    [01.04.01] Centro de Custo
+ 
+            [02] Estoque
+ 
+                [02.01] Gestão de Estoque
+ 
+                    [02.01.02] Baixa de Estoque
+ 
+                        [02.01.02.01] Incluir Baixa de Estoque
+ 
+                        [02.01.02.02] Excluir Baixa de Estoque
+ 
+                        [02.01.02.03] Editar Baixa de Estoque
+ 
+                        [02.01.02.05] Processa grupo
+ 
+                        [02.01.02.09] Alterar filtro movimento
+ 
+                        [02.01.02.11] Colocar Movimento em separação
+ 
+                        [02.01.02.12] Iniciar separação
+ 
+                        [02.01.02.13] Ativar / Inativar
+ 
+                        [02.01.02.14] Voltar ao Status de Separação Anterior
+ 
+                        [02.01.03.01] Incluir Moviento de Transferência
+ 
+                        [02.01.03.02] Excluir Movimento de Transferência
+ 
+                        [02.01.03.03] Editar Movimento de Transfêrncia
+ 
+                        [02.01.03.09] Alterar filtro movimento
+ 
+                        [02.01.03.11] Colocar Movimento em separação
+ 
+                        [02.01.03.12] Iniciar separação
+ 
+                        [02.01.03.13] Ativar / Inativar
+ 
+                        [02.01.03.14] Voltar ao Status de Separação Anterior
+ 
+                        [02.01.03.16] Inclusão de Movimento com Arquivo XML
+ 
+                    [02.01.05] Ajuste de Estoque
+ 
+                        [02.01.05.01] Incluir Ajuste de Estoque
+ 
+                        [02.01.05.02] Excluir Ajuste de Estoque
+ 
+                        [02.01.05.03] Editar Ajuste de Estoque
+ 
+                    [02.01.15] Consultas e Relatórios
+ 
+                        [02.01.15.01] Consultar Saldos e Custos
+ 
+                            [02.01.15.01.01] Consulta Rápida Fluig - Saldo Estoque e Ressup.
+ 
+                        [02.01.15.02] Relatório de Ficha Física Financeira
+ 
+            [03] Compras
+ 
+                [03.01] Gestão de Compras
+ 
+                    [03.01.01] Solicitação de Compra
+ 
+                        [03.01.01.01] Incluir Solicitação de Compra
+ 
+                        [03.01.01.02] Excluir Solicitação de Compra
+ 
+                        [03.01.01.03] Editar Solicitação de Compra
+ 
+                        [03.01.01.06] Processa grupo
+ 
+                        [03.01.01.08] Incluir filtro movimento de compras
+ 
+                        [03.01.01.18] Alterar Movimentos em Aprovação por WorkFlow
+ 
+                    [03.01.03] Ordem de Compra
+ 
+                        [03.01.03.01] Incluir Ordem de Compra
+ 
+                        [03.01.03.02] Excluir Ordem de Compra
+ 
+                        [03.01.03.03] Editar Ordem de Compra
+ 
+                        [03.01.03.12] Desaprovar Movimentos / Itens de compra
+ 
+                        [03.01.03.19] Alterar Movimentos em Aprovação por WorkFlow
+ 
+                    [03.01.08] Importação de Arquivo XML - Cadastro XML
+ 
+            [06] Outras Movimentações
+ 
+                [06.01] Movimentações
+ 
+                    [06.01.02] Outras Movimentações
+ 
+                        [06.01.02.01] Incluir Outras Movimentações
+ 
+                        [06.01.02.02] Excluir Outras Movimentações
+ 
+                        [06.01.02.03] Editar Outras Movimentações
+ 
+                        [06.01.02.18] Alterar Movimentos em Aprovação por WorkFlow
+ 
+                        [06.01.02.20] Inclusão de Movimento com Arquivo XML
+ 
+            [08] Integrações
+ 
+                [08.04] Importação de Arquivo XML
+ 
+                [08.07] Integração com WebService do Movimento (MovMovimentoTBCData)
+ 
+                [08.08] Integração com API de Movimento (Rest)
+ 
+            [09] Utilitários
+ 
+                [09.02] Consultas
+ 
+                    [09.02.01] Movimentação de Produtos
+ 
+                    [09.02.02] Consultar Lançamentos
+ 
+                [09.03] Processos
+ 
+                    [09.03.03] Corrigir Movimentos
+ 
+                        [09.03.03.02] Status "Em Faturamento"
+ 
+            [10] Customização
+ 
+                [10.01] Customização
+ 
+                    [10.01.01] Filial
+ 
+                    [10.01.03] Aprovação de Contratos
+ 
+                    [10.01.04] Alçadas de Aprovação
+ 
+                    [10.01.05] Cliente / Fornecedores do Produto
+ 
+            [11] Gestão
+ 
+                [11.01] Utilitários
+ 
+                [11.02] Ferramentas de Análise
+ 
+                    [11.02.04] Fórmula Visual
+ 
+                        [11.02.04.01] Atividades
+ 
+                        [11.02.04.03] Fórmula Visual
+ 
+                            [11.02.04.03.04] Executar Fórmula Visual
+ 
+                    [11.02.09] RM Reports
+ 
+                        [11.02.09.04] Processos
+ 
+                            [11.02.09.04.05] Gerar Relatórios
+ 
+                    [11.02.10] Gerador de Relatórios
+ 
+                    [11.02.11] Visões de Dados
+ 
+                    [11.02.13] Gerador de Saída
+ 
+                        [11.02.13.01] Executar
+ 
+                [11.06] Comunicação
+ 
+                    [11.06.02] Fontes
+ 
+            [12] Ambiente
+ 
+                [12.02] Configuração
+ 
+                    [12.02.03] Parâmetros
+ 
+                        [12.02.03.03] Define integrações entre os vários sistemas componentes do ERP
+ 
+                [12.04] Ajuda
+ 
+                    [12.04.01] Sobre
+ 
+                    [12.04.02] Links
+ 
+            [13] Permissões Globais
+ 
+                [13.01] Filtros
+ 
+                    [13.01.01] Filtros Globais
+ 
+                    [13.01.02] Filtros Relatórios
+ 
+            [14] Administrativo (Portal)
+ 
+                [14.01] Estoque
+ 
+                    [14.01.01] Consulta Rápida Fluig - Saldo Estoque e Ressup.
+ 
+                [14.02] Faturamento
+ 
+Acesso à Tabelas e Campos                                   Pode Consultar     Pode Alterar
+ 
+Tabela: FCFO
+ 
+AGRUPCOB                                  [X]          [ ]
+ 
+ATIVO                                     [X]          [ ]
+ 
+BAIRRO                                    [X]          [ ]
+ 
+BAIRROENTREGA                             [X]          [ ]
+ 
+BAIRROPGTO                                [X]          [ ]
+ 
+CAIXAPOSTAL                               [X]          [ ]
+ 
+CAIXAPOSTALENTREGA                        [X]          [ ]
+ 
+CAIXAPOSTALPAGAMENTO                      [X]          [ ]
+ 
+CALCULAAVP                                [X]          [ ]
+ 
+CAMPOALFAOP1                              [X]          [ ]
+ 
+CAMPOALFAOP2                              [X]          [ ]
+ 
+CAMPOALFAOP3                              [X]          [ ]
+ 
+CAMPOLIVRE                                [X]          [ ]
+ 
+CATEGORIAAUTONOMO                         [X]          [ ]
+ 
+CBOAUTONOMO                               [X]          [ ]
+ 
+CEI                                       [X]          [ ]
+ 
+CEP                                       [X]          [ ]
+ 
+CEPCAIXAPOSTAL                            [X]          [ ]
+ 
+CEPENTREGA                                [X]          [ ]
+ 
+CEPPGTO                                   [X]          [ ]
+ 
+CFOIMOB                                   [X]          [ ]
+ 
+CGCCFO                                    [X]          [ ]
+ 
+CHAPA                                     [X]          [ ]
+ 
+CI_ORGAO                                  [X]          [ ]
+ 
+CI_UF                                     [X]          [ ]
+ 
+CIAUTONOMO                                [X]          [ ]
+ 
+CIDADE                                    [X]          [ ]
+ 
+CIDADEENTREGA                             [X]          [ ]
+ 
+CIDADEPGTO                                [X]          [ ]
+ 
+CIDENTIDADE                               [X]          [ ]
+ 
+CODCARGO                                  [X]          [ ]
+ 
+CODCFO                                    [X]          [ ]
+ 
+CODCOLCFOFISCAL                           [X]          [ ]
+ 
+CODCOLCHAVESESTRANG                       [X]          [ ]
+ 
+CODCOLCONTAGER                            [X]          [ ]
+ 
+CODCOLCXA                                 [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+CODCOLTCF                                 [X]          [ ]
+ 
+CODCONTAGER                               [X]          [ ]
+ 
+CODCXA                                    [X]          [ ]
+ 
+CODETD                                    [X]          [ ]
+ 
+CODETDENTREGA                             [X]          [ ]
+ 
+CODETDPGTO                                [X]          [ ]
+ 
+CODFINALIDADE                             [X]          [ ]
+ 
+CODIGOINSS                                [X]          [ ]
+ 
+CODMUNICIPIO                              [X]          [ ]
+ 
+CODMUNICIPIOENTREGA                       [X]          [ ]
+ 
+CODMUNICIPIOPGTO                          [X]          [ ]
+ 
+CODPAGTOGPS                               [X]          [ ]
+ 
+CODPROF                                   [X]          [ ]
+ 
+CODRECEITA                                [X]          [ ]
+ 
+CODTCF                                    [X]          [ ]
+ 
+CODTRA                                    [X]          [ ]
+ 
+CODUSUARIOACESSO                          [X]          [ ]
+ 
+CODVINCULO                                [X]          [ ]
+ 
+COMPLEMENTO                               [X]          [ ]
+ 
+COMPLEMENTOPGTO                           [X]          [ ]
+ 
+COMPLEMENTREGA                            [X]          [ ]
+ 
+CONTATO                                   [X]          [ ]
+ 
+CONTATOENTREGA                            [X]          [ ]
+ 
+CONTATOPGTO                               [X]          [ ]
+ 
+CONTEVENTOCONTAB                          [X]          [ ]
+ 
+CONTRIBUINTE                              [X]          [ ]
+ 
+CONTRIBUINTEISS                           [X]          [ ]
+ 
+DATACRIACAO                               [X]          [ ]
+ 
+DATAOP1                                   [X]          [ ]
+ 
+DATAOP2                                   [X]          [ ]
+ 
+DATAOP3                                   [X]          [ ]
+ 
+DATAULTALTERACAO                          [X]          [ ]
+ 
+DATAULTMOVIMENTO                          [X]          [ ]
+ 
+DTINICATIVIDADES                          [X]          [ ]
+ 
+DTNASCIMENTO                              [X]          [ ]
+ 
+EMAIL                                     [X]          [ ]
+ 
+EMAILENTREGA                              [X]          [ ]
+ 
+EMAILFISCAL                               [X]          [ ]
+ 
+EMAILPGTO                                 [X]          [ ]
+ 
+EMPRESA                                   [X]          [ ]
+ 
+ENDCOBC                                   [X]          [ ]
+ 
+ESTADOCIVIL                               [X]          [ ]
+ 
+FAX                                       [X]          [ ]
+ 
+FAXDEDICADO                               [X]          [ ]
+ 
+FAXENTREGA                                [X]          [ ]
+ 
+FAXPGTO                                   [X]          [ ]
+ 
+FORMAPAGAMENTO                            [X]          [ ]
+ 
+FORMATRIBUTACAO                           [X]          [ ]
+ 
+IDCFO                                     [X]          [ ]
+ 
+IDCFOFISCAL                               [X]          [ ]
+ 
+IDENTPORCNPJ                              [X]          [ ]
+ 
+IDINTEGRACAO                              [X]          [ ]
+ 
+IDPAIS                                    [X]          [ ]
+ 
+IDPAISENTREGA                             [X]          [ ]
+ 
+IDPAISPGTO                                [X]          [ ]
+ 
+INDNATRET                                 [X]          [ ]
+ 
+INSCRESTADUAL                             [X]          [ ]
+ 
+INSCRESTADUALST                           [X]          [ ]
+ 
+INSCRMUNICIPAL                            [X]          [ ]
+ 
+LIMITECREDITO                             [X]          [ ]
+ 
+LOCALIDADE                                [X]          [ ]
+ 
+LOCALIDADEENTREGA                         [X]          [ ]
+ 
+LOCALIDADEPGTO                            [X]          [ ]
+ 
+NACIONALIDADE                             [X]          [ ]
+ 
+NIF                                       [X]          [ ]
+ 
+NIT                                       [X]          [ ]
+ 
+NUMDEPENDENTES                            [X]          [ ]
+ 
+NUMDIASATRASO                             [X]          [ ]
+ 
+NUMERO                                    [X]          [ ]
+ 
+NUMEROENTREGA                             [X]          [ ]
+ 
+NUMEROPGTO                                [X]          [ ]
+ 
+NUMFUNCIONARIOS                           [X]          [ ]
+ 
+OPTANTEPELOSIMPLES                        [X]          [ ]
+ 
+ORGAOPUBLICO                              [X]          [ ]
+ 
+PAGREC                                    [X]          [ ]
+ 
+PAIS                                      [X]          [ ]
+ 
+PAISENTREGA                               [X]          [ ]
+ 
+PAISPAGTO                                 [X]          [ ]
+ 
+PATRIMONIO                                [X]          [ ]
+ 
+PESSOAFISOUJUR                            [X]          [ ]
+ 
+PORTE                                     [X]          [ ]
+ 
+PRODUTORRURAL                             [X]          [ ]
+ 
+RAMOATIV                                  [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+REGIMEISS                                 [X]          [ ]
+ 
+RETENCAOISS                               [X]          [ ]
+ 
+RUA                                       [X]          [ ]
+ 
+RUAENTREGA                                [X]          [ ]
+ 
+RUAPGTO                                   [X]          [ ]
+ 
+SATISFACAO                                [X]          [ ]
+ 
+SIMBMOEDAINDEX                            [X]          [ ]
+ 
+SITUACAONIF                               [X]          [ ]
+ 
+STATUSCOTACAO                             [X]          [ ]
+ 
+SUFRAMA                                   [X]          [ ]
+ 
+TELEFONE                                  [X]          [ ]
+ 
+TELEFONECOMERCIAL                         [X]          [ ]
+ 
+TELEFONEENTREGA                           [X]          [ ]
+ 
+TELEFONEPGTO                              [X]          [ ]
+ 
+TELEX                                     [X]          [ ]
+ 
+TIPOBAIRRO                                [X]          [ ]
+ 
+TIPOBAIRROENTREGA                         [X]          [ ]
+ 
+TIPOBAIRROPGTO                            [X]          [ ]
+ 
+TIPOCONTRIBUINTEINSS                      [X]          [ ]
+ 
+TIPODOC                                   [X]          [ ]
+ 
+TIPOINSCRCNAB                             [X]          [ ]
+ 
+TIPOOPCOMBUSTIVEL                         [X]          [ ]
+ 
+TIPORENDIMENTO                            [X]          [ ]
+ 
+TIPORUA                                   [X]          [ ]
+ 
+TIPORUAENTREGA                            [X]          [ ]
+ 
+TIPORUAPGTO                               [X]          [ ]
+ 
+TPTOMADOR                                 [X]          [ ]
+ 
+ULTIMODOCUMENTO                           [X]          [ ]
+ 
+USARCUMULATRETENCAOPAGAR                  [X]          [ ]
+ 
+USUARIOALTERACAO                          [X]          [ ]
+ 
+USUARIOCRIACAO                            [X]          [ ]
+ 
+VALFRETE                                  [X]          [ ]
+ 
+VALOROP1                                  [X]          [ ]
+ 
+VALOROP2                                  [X]          [ ]
+ 
+VALOROP3                                  [X]          [ ]
+ 
+VALORULTIMOLAN                            [X]          [ ]
+ 
+VROUTRASDEDUCOESIRRF                      [X]          [ ]
+ 
+Tabela: FCFOCOMPL
+ 
+AVALIAFOR                                 [X]          [ ]
+ 
+CODCFO                                    [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+CONTROLEMP                                [X]          [ ]
+ 
+MOTIVOBLOQUEIO                            [X]          [ ]
+ 
+PENSAOALIMENTICIA                         [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+Tabela: FCFOCONT
+ 
+CLASSCONTA                                [X]          [ ]
+ 
+CODCCUSTO                                 [X]          [ ]
+ 
+CODCFO                                    [X]          [ ]
+ 
+CODCOLCFO                                 [X]          [ ]
+ 
+CODCOLCONTA                               [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+CODCONTA                                  [X]          [ ]
+ 
+CODDEPARTAMENTO                           [X]          [ ]
+ 
+CODFILIAL                                 [X]          [ ]
+ 
+CODHISTP                                  [X]          [ ]
+ 
+COMPLHISTORICO                            [X]          [ ]
+ 
+IDCFOCONT                                 [X]          [ ]
+ 
+PAGREC                                    [X]          [ ]
+ 
+PERCENTUAL                                [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+TIPO                                      [X]          [ ]
+ 
+Tabela: FCFOCONTATO
+ 
+ATIVO                                     [X]          [ ]
+ 
+BAIRRO                                    [X]          [ ]
+ 
+CEP                                       [X]          [ ]
+ 
+CIDADE                                    [X]          [ ]
+ 
+CODAPLIC                                  [X]          [ ]
+ 
+CODCFO                                    [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+CODETD                                    [X]          [ ]
+ 
+CODMUNICIPIO                              [X]          [ ]
+ 
+CODUSUARIO                                [X]          [ ]
+ 
+CODUSUARIOACESSO                          [X]          [ ]
+ 
+COMPLEMENTO                               [X]          [ ]
+ 
+DATAALTERACAO                             [X]          [ ]
+ 
+DATANASCIMENTO                            [X]          [ ]
+ 
+DEFAUTPARAEMAIL                           [X]          [ ]
+ 
+EMAIL                                     [X]          [ ]
+ 
+FAX                                       [X]          [ ]
+ 
+FUNCAO                                    [X]          [ ]
+ 
+IDCONTATO                                 [X]          [ ]
+ 
+IDINTEGRACAO                              [X]          [ ]
+ 
+LOCALIDADE                                [X]          [ ]
+ 
+NUMERO                                    [X]          [ ]
+ 
+OBSERVACAO                                [X]          [ ]
+ 
+PAIS                                      [X]          [ ]
+ 
+RAMAL                                     [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+RUA                                       [X]          [ ]
+ 
+TELEFONE                                  [X]          [ ]
+ 
+USUARIOALTERACAO                          [X]          [ ]
+ 
+Tabela: FCFOCONTATOCOMPL
+ 
+CODCFO                                    [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+IDCONTATO                                 [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+Tabela: FCFODEF
+ 
+CIFFOB                                    [X]          [ ]
+ 
+CNABCARTEIRA                              [X]          [ ]
+ 
+CODBANCOCOBRANCA                          [X]          [ ]
+ 
+CODCCUSTO                                 [X]          [ ]
+ 
+CODCFO                                    [X]          [ ]
+ 
+CODCOLCFO                                 [X]          [ ]
+ 
+CODCOLCXA                                 [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+CODCPG                                    [X]          [ ]
+ 
+CODCPGVENDA                               [X]          [ ]
+ 
+CODCXA                                    [X]          [ ]
+ 
+CODDEPARTAMENTO                           [X]          [ ]
+ 
+CODFILIAL                                 [X]          [ ]
+ 
+CODIGOINSS                                [X]          [ ]
+ 
+CODRPR                                    [X]          [ ]
+ 
+CODTB1FLX                                 [X]          [ ]
+ 
+CODTB2FLX                                 [X]          [ ]
+ 
+CODTB3FLX                                 [X]          [ ]
+ 
+CODTB4FLX                                 [X]          [ ]
+ 
+CODTB5FLX                                 [X]          [ ]
+ 
+CODTDO                                    [X]          [ ]
+ 
+CODTRA                                    [X]          [ ]
+ 
+CODTRA2                                   [X]          [ ]
+ 
+CODVEN                                    [X]          [ ]
+ 
+DIASVENCSEMANA                            [X]          [ ]
+ 
+PERCDESCCOMPRA                            [X]          [ ]
+ 
+PERCENTUALDESC                            [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+TIPOCONTABILLAN                           [X]          [ ]
+ 
+Tabela: TCPGFCFO
+ 
+CODCFO                                    [ ]          [ ]
+ 
+CODCOLCFO                                 [ ]          [ ]
+ 
+CODCOLIGADA                               [ ]          [ ]
+ 
+CODCPGCOMPRA                              [ ]          [ ]
+ 
+CODCPGVENDA                               [ ]          [ ]
+ 
+DEFAULTCOMPRA                             [ ]          [ ]
+ 
+DEFAULTVENDA                              [ ]          [ ]
+ 
+IDCPGFCFO                                 [ ]          [ ]
+ 
+RECCREATEDBY                              [ ]          [ ]
+ 
+RECCREATEDON                              [ ]          [ ]
+ 
+RECMODIFIEDBY                             [ ]          [ ]
+ 
+RECMODIFIEDON                             [ ]          [ ]
+ 
+Tabela: TMOV
+ 
+FRETECIFOUFOB                             [X]          [ ]
+ 
+VALORDESP                                 [X]          [ ]
+ 
+VALORDESPCONDICIONAL                      [X]          [ ]
+ 
+Tabela: TPRD
+ 
+BLOCK                                     [X]          [ ]
+ 
+CAMPOLIVRE                                [X]          [ ]
+ 
+CAMPOLIVRE2                               [X]          [ ]
+ 
+CAMPOLIVRE3                               [X]          [ ]
+ 
+CLASSEFISCALECF                           [X]          [ ]
+ 
+CLCONTABIL                                [X]          [ ]
+ 
+CODAREA                                   [X]          [ ]
+ 
+CODCOLCONTAGER                            [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+CODCOLTBORCAMENTO                         [X]          [ ]
+ 
+CODCOLUNA                                 [X]          [ ]
+ 
+CODCONTAGER                               [X]          [ ]
+ 
+CODCPG                                    [X]          [ ]
+ 
+CODDIEF                                   [X]          [ ]
+ 
+CODFAB                                    [X]          [ ]
+ 
+CODGRD                                    [X]          [ ]
+ 
+CODGRUPO                                  [X]          [ ]
+ 
+CODGRUPOBEM                               [X]          [ ]
+ 
+CODIGOAUXILIAR                            [X]          [ ]
+ 
+CODIGOEX                                  [X]          [ ]
+ 
+CODIGOPRD                                 [X]          [ ]
+ 
+CODIGOREDUZIDO                            [X]          [ ]
+ 
+CODLINHA                                  [X]          [ ]
+ 
+CODMOEPRECO1                              [X]          [ ]
+ 
+CODMOEPRECO2                              [X]          [ ]
+ 
+CODMOEPRECO3                              [X]          [ ]
+ 
+CODMOEPRECO4                              [X]          [ ]
+ 
+CODMOEPRECO5                              [X]          [ ]
+ 
+CODTB1FAT                                 [X]          [ ]
+ 
+CODTB2FAT                                 [X]          [ ]
+ 
+CODTB3FAT                                 [X]          [ ]
+ 
+CODTB4FAT                                 [X]          [ ]
+ 
+CODTB5FAT                                 [X]          [ ]
+ 
+CODTBORCAMENTO                            [X]          [ ]
+ 
+CODTIP                                    [X]          [ ]
+ 
+CODTIPOAPL                                [X]          [ ]
+ 
+CODUNDCOMPRA                              [X]          [ ]
+ 
+CODUNDCONTROLE                            [X]          [ ]
+ 
+CODUNDVENDA                               [X]          [ ]
+ 
+CODUSUARIO                                [X]          [ ]
+ 
+COMPRIMENTO                               [X]          [ ]
+ 
+CONCEITOABC                               [X]          [ ]
+ 
+CONTROLADOPORLOTE                         [X]          [ ]
+ 
+COR                                       [X]          [ ]
+ 
+CUSTOMEDIO                                [X]          [ ]
+ 
+CUSTOPADRAO                               [X]          [ ]
+ 
+CUSTOREPOSICAO                            [X]          [ ]
+ 
+CUSTOREPOSICAOB                           [X]          [ ]
+ 
+CUSTOUNITARIO                             [X]          [ ]
+ 
+DATABASEPRECO1                            [X]          [ ]
+ 
+DATABASEPRECO2                            [X]          [ ]
+ 
+DATABASEPRECO3                            [X]          [ ]
+ 
+DATABASEPRECO4                            [X]          [ ]
+ 
+DATABASEPRECO5                            [X]          [ ]
+ 
+DATACUSTOMEDIO                            [X]          [ ]
+ 
+DATAEXTRA1                                [X]          [ ]
+ 
+DATAEXTRA2                                [X]          [ ]
+ 
+DATAPRIMEIRAALT                           [X]          [ ]
+ 
+DATAULTALTERACAO                          [X]          [ ]
+ 
+DESCONTOCOMPRA                            [X]          [ ]
+ 
+DESCONTOVENDA                             [X]          [ ]
+ 
+DESCRICAO                                 [X]          [ ]
+ 
+DESCRICAOAUX                              [X]          [ ]
+ 
+DESCRICAOCP                               [X]          [ ]
+ 
+DIAMETRO                                  [X]          [ ]
+ 
+DTCADASTRAMENTO                           [X]          [ ]
+ 
+DTCUSTOUNITARIO                           [X]          [ ]
+ 
+DTULTIMACOMPRA                            [X]          [ ]
+ 
+DTULTIMACOMPRAB                           [X]          [ ]
+ 
+DTULTIMAVENDAA                            [X]          [ ]
+ 
+DTULTIMAVENDAB                            [X]          [ ]
+ 
+DTULTIMOREAJUSTE                          [X]          [ ]
+ 
+EPERIODICO                                [X]          [ ]
+ 
+ESPESSURA                                 [X]          [ ]
+ 
+ESTOQUEMAXIMO1                            [X]          [ ]
+ 
+ESTOQUEMAXIMO2                            [X]          [ ]
+ 
+ESTOQUEMAXIMO3                            [X]          [ ]
+ 
+ESTOQUEMINIMO1                            [X]          [ ]
+ 
+ESTOQUEMINIMO2                            [X]          [ ]
+ 
+ESTOQUEMINIMO3                            [X]          [ ]
+ 
+FATORREDUCAOICMS                          [X]          [ ]
+ 
+GRPFATURAMENTO                            [X]          [ ]
+ 
+IDFORMA                                   [X]          [ ]
+ 
+IDGRD                                     [X]          [ ]
+ 
+IDIMAGEM                                  [X]          [ ]
+ 
+IDPRD                                     [X]          [ ]
+ 
+IDPRDCONVERTIDO                           [X]          [ ]
+ 
+IDPRDFISCALE                              [X]          [ ]
+ 
+IDPRDFISCALS                              [X]          [ ]
+ 
+IDPRDRELAC2                               [X]          [ ]
+ 
+IDPRODUTORELAC                            [X]          [ ]
+ 
+INATIVO                                   [X]          [ ]
+ 
+INVENTARIOFISCAL                          [X]          [ ]
+ 
+LARGURA                                   [X]          [ ]
+ 
+LOCALDESCARGA                             [X]          [ ]
+ 
+MARGEMBRUTALUCRO                          [X]          [ ]
+ 
+MARGEMLUCROFISC                           [X]          [ ]
+ 
+MASCARANUMSERIE                           [X]          [ ]
+ 
+MULTIPLOPRD                               [X]          [ ]
+ 
+MULTIPLOPRDVENDA                          [X]          [ ]
+ 
+MULTIPLOQTDECOMPRADA                      [X]          [ ]
+ 
+NUMDECPRECO                               [X]          [ ]
+ 
+NUMEROCCF                                 [X]          [ ]
+ 
+NUMEROTRIBUTOS                            [X]          [ ]
+ 
+NUMNOFABRIC                               [X]          [ ]
+ 
+OBSERVACAO                                [X]          [ ]
+ 
+PERCENTCOMISSAO                           [X]          [ ]
+ 
+PERCENTCOMISSAO2                          [X]          [ ]
+ 
+PERCENTCOMISSAO3                          [X]          [ ]
+ 
+PERCENTIMPORTADO                          [X]          [ ]
+ 
+PESAVEL                                   [X]          [ ]
+ 
+PESOBRUTO                                 [X]          [ ]
+ 
+PESOLIQUIDO                               [X]          [ ]
+ 
+PONTODEPEDIDO1                            [X]          [ ]
+ 
+PONTODEPEDIDO2                            [X]          [ ]
+ 
+PONTODEPEDIDO3                            [X]          [ ]
+ 
+PRECO1                                    [X]          [ ]
+ 
+PRECO2                                    [X]          [ ]
+ 
+PRECO3                                    [X]          [ ]
+ 
+PRECO4                                    [X]          [ ]
+ 
+PRECO5                                    [X]          [ ]
+ 
+PRODUTOBASE                               [X]          [ ]
+ 
+PRODUTOEPI                                [X]          [ ]
+ 
+QTDEVOLUME                                [X]          [ ]
+ 
+RECALCCUSTOMEDIO                          [X]          [ ]
+ 
+RECALCSALDO1                              [X]          [ ]
+ 
+RECALCSALDO10                             [X]          [ ]
+ 
+RECALCSALDO2                              [X]          [ ]
+ 
+RECALCSALDO3                              [X]          [ ]
+ 
+RECALCSALDO4                              [X]          [ ]
+ 
+RECALCSALDO5                              [X]          [ ]
+ 
+RECALCSALDO6                              [X]          [ ]
+ 
+RECALCSALDO7                              [X]          [ ]
+ 
+RECALCSALDO8                              [X]          [ ]
+ 
+RECALCSALDO9                              [X]          [ ]
+ 
+REFERENCIACCF                             [X]          [ ]
+ 
+REFERENCIACP                              [X]          [ ]
+ 
+REPASSEFABRIC                             [X]          [ ]
+ 
+SALDOGERALFINANC                          [X]          [ ]
+ 
+SALDOGERALFISICO                          [X]          [ ]
+ 
+SERVICOPRODUTORMOFFICINA                  [X]          [ ]
+ 
+TEMPO                                     [X]          [ ]
+ 
+TEMPOVALIDADE                             [X]          [ ]
+ 
+TIPO                                      [X]          [ ]
+ 
+TIPOCALCULOCUSTO                          [X]          [ ]
+ 
+TIPOCONTA                                 [X]          [ ]
+ 
+TOLERANCIAINF                             [X]          [ ]
+ 
+TOLERANCIASUP                             [X]          [ ]
+ 
+TOLINFPRECO                               [X]          [ ]
+ 
+TOLSUPPRECO                               [X]          [ ]
+ 
+TRIBUTACAOECF                             [X]          [ ]
+ 
+ULTIMONIVEL                               [X]          [ ]
+ 
+USANUMDECPRECO                            [X]          [ ]
+ 
+USANUMSERIE                               [X]          [ ]
+ 
+USUARIOCRIACAO                            [X]          [ ]
+ 
+VALIDADEMINIMA                            [X]          [ ]
+ 
+Tabela: TPRODUTO
+ 
+BLOCK                                     [X]          [ ]
+ 
+CAMPOLIVRE                                [X]          [ ]
+ 
+CAMPOLIVRE2                               [X]          [ ]
+ 
+CAMPOLIVRE3                               [X]          [ ]
+ 
+CODCOLPRD                                 [X]          [ ]
+ 
+CODIGOAUXILIAR                            [X]          [ ]
+ 
+CODIGOEX                                  [X]          [ ]
+ 
+CODIGOPRD                                 [X]          [ ]
+ 
+CODIGOREDUZIDO                            [X]          [ ]
+ 
+CODUSUARIO                                [X]          [ ]
+ 
+COMPRIMENTO                               [X]          [ ]
+ 
+CONTROLADOPORLOTE                         [X]          [ ]
+ 
+COR                                       [X]          [ ]
+ 
+DATAEXTRA1                                [X]          [ ]
+ 
+DATAEXTRA2                                [X]          [ ]
+ 
+DATAULTALTERACAO                          [X]          [ ]
+ 
+DESCRICAO                                 [X]          [ ]
+ 
+DESCRICAOAUX                              [X]          [ ]
+ 
+DESCRICAOCP                               [X]          [ ]
+ 
+DIAMETRO                                  [X]          [ ]
+ 
+DTCADASTRAMENTO                           [X]          [ ]
+ 
+EPERIODICO                                [X]          [ ]
+ 
+ESPESSURA                                 [X]          [ ]
+ 
+ID                                        [X]          [ ]
+ 
+IDIMAGEM                                  [X]          [ ]
+ 
+IDNCM                                     [X]          [ ]
+ 
+IDPRD                                     [X]          [ ]
+ 
+IDPRODUTORELAC                            [X]          [ ]
+ 
+INATIVO                                   [X]          [ ]
+ 
+LARGURA                                   [X]          [ ]
+ 
+MASCARANUMSERIE                           [X]          [ ]
+ 
+NUMEROCCF                                 [X]          [ ]
+ 
+NUMEROTRIBUTOS                            [X]          [ ]
+ 
+OBSERVACAO                                [X]          [ ]
+ 
+PESAVEL                                   [X]          [ ]
+ 
+PESOBRUTO                                 [X]          [ ]
+ 
+PESOLIQUIDO                               [X]          [ ]
+ 
+PRODUTOBASE                               [X]          [ ]
+ 
+PRODUTOEPI                                [X]          [ ]
+ 
+QTDEVOLUME                                [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+REFERENCIACCF                             [X]          [ ]
+ 
+REFERENCIACP                              [X]          [ ]
+ 
+SERVICOPRODUTORMOFFICINA                  [X]          [ ]
+ 
+TEMPO                                     [X]          [ ]
+ 
+TEMPOVALIDADE                             [X]          [ ]
+ 
+TIPO                                      [X]          [ ]
+ 
+ULTIMONIVEL                               [X]          [ ]
+ 
+USANUMSERIE                               [X]          [ ]
+ 
+USUARIOCRIACAO                            [X]          [ ]
+ 
+VALIDADEMINIMA                            [X]          [ ]
+ 
+Tabela: TPRODUTODEF
+ 
+CODCOLCONTAGER                            [X]          [ ]
+ 
+CODCOLIGADA                               [X]          [ ]
+ 
+CODCOLTBORCAMENTO                         [X]          [ ]
+ 
+CODCOLUNA                                 [X]          [ ]
+ 
+CODCONTAGER                               [X]          [ ]
+ 
+CODCPG                                    [X]          [ ]
+ 
+CODDIEF                                   [X]          [ ]
+ 
+CODFAB                                    [X]          [ ]
+ 
+CODGRD                                    [X]          [ ]
+ 
+CODGRUPO                                  [X]          [ ]
+ 
+CODGRUPOBEM                               [X]          [ ]
+ 
+CODLINHA                                  [X]          [ ]
+ 
+CODMOEPRECO1                              [X]          [ ]
+ 
+CODMOEPRECO2                              [X]          [ ]
+ 
+CODMOEPRECO3                              [X]          [ ]
+ 
+CODMOEPRECO4                              [X]          [ ]
+ 
+CODMOEPRECO5                              [X]          [ ]
+ 
+CODTB1FAT                                 [X]          [ ]
+ 
+CODTB2FAT                                 [X]          [ ]
+ 
+CODTB3FAT                                 [X]          [ ]
+ 
+CODTB4FAT                                 [X]          [ ]
+ 
+CODTB5FAT                                 [X]          [ ]
+ 
+CODTBORCAMENTO                            [X]          [ ]
+ 
+CODTIP                                    [X]          [ ]
+ 
+CODTIPOAPL                                [X]          [ ]
+ 
+CODUNDCOMPRA                              [X]          [ ]
+ 
+CODUNDCONTROLE                            [X]          [ ]
+ 
+CODUNDVENDA                               [X]          [ ]
+ 
+CUSTOMEDIO                                [X]          [ ]
+ 
+CUSTOPADRAO                               [X]          [ ]
+ 
+CUSTOREPOSICAO                            [X]          [ ]
+ 
+CUSTOREPOSICAOB                           [X]          [ ]
+ 
+CUSTOUNITARIO                             [X]          [ ]
+ 
+DATABASEPRECO1                            [X]          [ ]
+ 
+DATABASEPRECO2                            [X]          [ ]
+ 
+DATABASEPRECO3                            [X]          [ ]
+ 
+DATABASEPRECO4                            [X]          [ ]
+ 
+DATABASEPRECO5                            [X]          [ ]
+ 
+DATACUSTOMEDIO                            [X]          [ ]
+ 
+DATAPRIMEIRAALT                           [X]          [ ]
+ 
+DESCONTOCOMPRA                            [X]          [ ]
+ 
+DESCONTOVENDA                             [X]          [ ]
+ 
+DTCUSTOUNITARIO                           [X]          [ ]
+ 
+DTULTIMACOMPRA                            [X]          [ ]
+ 
+DTULTIMACOMPRAB                           [X]          [ ]
+ 
+ESTOQUEMAXIMO1                            [X]          [ ]
+ 
+ESTOQUEMAXIMO2                            [X]          [ ]
+ 
+ESTOQUEMAXIMO3                            [X]          [ ]
+ 
+ESTOQUEMINIMO1                            [X]          [ ]
+ 
+ESTOQUEMINIMO2                            [X]          [ ]
+ 
+ESTOQUEMINIMO3                            [X]          [ ]
+ 
+GRPFATURAMENTO                            [X]          [ ]
+ 
+IDGRD                                     [X]          [ ]
+ 
+IDPRD                                     [X]          [ ]
+ 
+IDPRDFISCALE                              [X]          [ ]
+ 
+IDPRDFISCALS                              [X]          [ ]
+ 
+LOCALDESCARGA                             [X]          [ ]
+ 
+MARGEMBRUTALUCRO                          [X]          [ ]
+ 
+MULTIPLOPRD                               [X]          [ ]
+ 
+MULTIPLOPRDVENDA                          [X]          [ ]
+ 
+MULTIPLOQTDECOMPRADA                      [X]          [ ]
+ 
+NUMDECPRECO                               [X]          [ ]
+ 
+NUMNOFABRIC                               [X]          [ ]
+ 
+PERCENTCOMISSAO                           [X]          [ ]
+ 
+PERCENTCOMISSAO2                          [X]          [ ]
+ 
+PERCENTCOMISSAO3                          [X]          [ ]
+ 
+PONTODEPEDIDO1                            [X]          [ ]
+ 
+PONTODEPEDIDO2                            [X]          [ ]
+ 
+PONTODEPEDIDO3                            [X]          [ ]
+ 
+PRECO1                                    [X]          [ ]
+ 
+PRECO2                                    [X]          [ ]
+ 
+PRECO3                                    [X]          [ ]
+ 
+PRECO4                                    [X]          [ ]
+ 
+PRECO5                                    [X]          [ ]
+ 
+RECALCCUSTOMEDIO                          [X]          [ ]
+ 
+RECALCSALDO1                              [X]          [ ]
+ 
+RECALCSALDO10                             [X]          [ ]
+ 
+RECALCSALDO2                              [X]          [ ]
+ 
+RECALCSALDO3                              [X]          [ ]
+ 
+RECALCSALDO4                              [X]          [ ]
+ 
+RECALCSALDO5                              [X]          [ ]
+ 
+RECALCSALDO6                              [X]          [ ]
+ 
+RECALCSALDO7                              [X]          [ ]
+ 
+RECALCSALDO8                              [X]          [ ]
+ 
+RECALCSALDO9                              [X]          [ ]
+ 
+RECCREATEDBY                              [X]          [ ]
+ 
+RECCREATEDON                              [X]          [ ]
+ 
+RECMODIFIEDBY                             [X]          [ ]
+ 
+RECMODIFIEDON                             [X]          [ ]
+ 
+REPASSEFABRIC                             [X]          [ ]
+ 
+SALDOGERALFINANC                          [X]          [ ]
+ 
+SALDOGERALFISICO                          [X]          [ ]
+ 
+TIPOCALCULOCUSTO                          [X]          [ ]
+ 
+TIPOCONTA                                 [X]          [ ]
+ 
+TOLERANCIAINF                             [X]          [ ]
+ 
+TOLERANCIASUP                             [X]          [ ]
+ 
+TOLINFPRECO                               [X]          [ ]
+ 
+TOLSUPPRECO                               [X]          [ ]
+ 
+TRIBUTACAOECF                             [X]          [ ]
+ 
+USANUMDECPRECO                            [X]          [ ]
+ 
+(Nos demais campos e tabelas o acesso do perfil é total.)
+ 

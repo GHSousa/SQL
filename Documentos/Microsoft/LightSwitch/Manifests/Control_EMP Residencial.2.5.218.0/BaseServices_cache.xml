@@ -1,0 +1,161 @@
+<Catalog Name="BaseServices" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.BaseServices.AutomaticDisplayName.Implementation.AutomaticDisplayNameService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.AutomaticDisplayName.Internal.IAutomaticDisplayNameService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.AutomaticDisplayName.Internal.IAutomaticDisplayNameService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.Diagnostics.Implementation.InternalDiagnostics" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata>
+      <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+        <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+      </Key>
+    </Metadata>
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Diagnostics.Internal.IInternalDiagnosticService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Diagnostics.Internal.IInternalDiagnosticService" ValueType="System.String" />
+          </Key>
+          <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+            <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.Notifications.Implementations.NotificationService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.Naming.Implementation.NamingUtilities" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Naming.Internal.INamingUtilities" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Naming.Internal.INamingUtilities" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.ResourceService.Implementation.ResourceServiceImplementation" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" ImportCardinality="ZeroOrMore" IsRecomposable="True" RequiredCreationPolicy="Any">
+        <RequiredMetadata>
+          <Metadata Name="Name" Type="System.String, mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+        </RequiredMetadata>
+        <GetAccessors>
+          <Accessor Name="get_ResourceProviders" />
+          <Accessor Name="set_ResourceProviders" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.Logging.Implementation.LoggingService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Logging.Internal.ILoggingService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Logging.Internal.ILoggingService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="LoggingCategory" MemberTypes="16" RequiredTypeIdentity="" ImportCardinality="ZeroOrMore" IsRecomposable="True" RequiredCreationPolicy="Any">
+        <RequiredMetadata>
+          <Metadata Name="Category" Type="System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+        </RequiredMetadata>
+        <GetAccessors>
+          <Accessor Name="" />
+          <Accessor Name="set_LoggingCategories" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="System.Void(Microsoft.LightSwitch.BaseServices.Logging.Internal.LoggingPacket)" MemberTypes="16" RequiredTypeIdentity="System.Void(Microsoft.LightSwitch.BaseServices.Logging.Internal.LoggingPacket)" ImportCardinality="ZeroOrMore" IsRecomposable="True" RequiredCreationPolicy="Any">
+        <RequiredMetadata>
+          <Metadata Name="Category" Type="System.Collections.Generic.IEnumerable`1[[System.String, mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+        </RequiredMetadata>
+        <GetAccessors>
+          <Accessor Name="get_LogCategoryListeners" />
+          <Accessor Name="set_LogCategoryListeners" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.Logging.Implementation.SimpleListener" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="System.Void(Microsoft.LightSwitch.BaseServices.Logging.Internal.LoggingPacket)" MemberTypes="8">
+        <Accessors>
+          <Accessor Name="Log" />
+        </Accessors>
+        <Metadata>
+          <Key Name="Category" Enumerable="True">
+            <Value Text="f925e992-0716-4c89-9efd-d99462cb1ba2" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="System.Void(Microsoft.LightSwitch.BaseServices.Logging.Internal.LoggingPacket)" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.ErrorHandler.Implementation.ErrorHandlerService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandlerService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandlerService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.BaseServices.Diagnostics.Implementation.DebugImplementation" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Diagnostics.Internal.IDebugService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Diagnostics.Internal.IDebugService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

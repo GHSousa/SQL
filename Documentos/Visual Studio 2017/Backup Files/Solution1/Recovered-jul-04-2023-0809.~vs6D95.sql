@@ -1,0 +1,3 @@
+SELECT TOP 20 *
+FROM GUSUARIO
+WHERE status <> 1

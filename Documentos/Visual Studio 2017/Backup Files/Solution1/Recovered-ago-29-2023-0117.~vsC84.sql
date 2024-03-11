@@ -1,0 +1,1 @@
+select * from tmovaprova where idmov = 15887 and codcoligada = 22

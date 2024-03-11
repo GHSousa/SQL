@@ -1,0 +1,15 @@
+<Catalog Name="SubsystemService" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.BaseServices.Subsystem.Implementation.SubsystemService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Subsystem.Internal.ISubsystemService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

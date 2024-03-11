@@ -1,0 +1,51 @@
+integrações 
+Escritaração de Lançamentos 
+
+
+=================================================================================
+Escrituração
+Total de Movimentos Selecionados: 3
+Total de Lançamentos Gerados: 0
+Total de Erros Encontrados: 5
+Valor Total de Lançamentos Escriturados: 0,00
+=================================================================================
+
+Erros no Serviço de Inclusão de Lançamentos
+---------------------------------------------------------------------------------
+Erro na Inclusão do Registro:
+Data Movimento: 03/01/2022
+Documento: 000001420
+Série: 1
+Tipo: 1.2.04
+Filial: 3
+Natureza de Operação: 1.353.01 
+Motivo: Tipo Rementente não informado
+---------------------------------------------------------------------------------
+Erro na Inclusão do Registro:
+Data Movimento: 04/05/2023
+Documento: 
+Série: 1
+Tipo: 1.2.14
+Filial: 3
+Natureza de Operação: 1.556.01 
+Motivo: Campos obrigatórios do lançamento não preenchidos.
+---------------------------------------------------------------------------------
+Erro na Inclusão do Registro:
+Data Movimento: 01/06/2023
+Documento: 
+Série: 3
+Tipo: 1.2.14
+Filial: 3
+Natureza de Operação: 1.556.01 
+Motivo: Campos obrigatórios do lançamento não preenchidos.
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Erros ao Validar Movimentos
+Nenhum Movimento Selecionado para a Filial 1! Verifique o filtro da Escrituração!
+Nenhum Movimento Selecionado para a Filial 2! Verifique o filtro da Escrituração!
+
+---------------------------------------------------------------------------------
+
+

@@ -1,0 +1,2 @@
+SELECT DISTINCT DSC_COMPN
+FROM xcomponente

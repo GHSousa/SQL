@@ -1,0 +1,344 @@
+<Catalog Name="ModelSubsystem" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.ClientServiceModuleLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="ClientServiceModule" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="ClientAssembly" MemberTypes="16" RequiredTypeIdentity="System.Reflection.Assembly" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ClientAssembly" />
+          <Accessor Name="set_ClientAssembly" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.Helpers.RuntimeModelItemProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IRuntimeModelItemProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Internal.IRuntimeModelItemProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IModelHelperService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Internal.IModelHelperService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelHelper" />
+          <Accessor Name="set_ModelHelper" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ResourceService" />
+          <Accessor Name="set_ResourceService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.Helpers.ModelStringsProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="ModelResources" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.ModelService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IModelServiceInternal" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Internal.IModelServiceInternal" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.IModelService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.ModelServiceExportHelper" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Implementation.ModelServiceExportHelper" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Implementation.ModelServiceExportHelper" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" ImportCardinality="ZeroOrMore" IsRecomposable="True" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModuleLoaderExports" />
+          <Accessor Name="set_ModuleLoaderExports" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.Helpers.ModelHelperService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IModelHelperService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Internal.IModelHelperService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.BuiltIn.BuiltInModuleLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.BuiltIn.BuiltInSLModuleLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.BuiltIn.RootControlConstantsSL" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IPresentationConstants" MemberTypes="32">
+        <Metadata>
+          <Key Name="TargetPlatform" Enumerable="False">
+            <Value Text="RichClient" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Internal.IPresentationConstants" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.BuiltIn.SharePointModuleLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.SharePoint" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Security.Implementation.ModuleLoader.SecurityModuleLoader" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" MemberTypes="32">
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Security" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.IModuleDefinitionLoader" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Security.ClientGenerated.Implementation.Internal.__TypeMapping" Assembly="Microsoft.LightSwitch.Base.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata>
+      <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+        <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+      </Key>
+    </Metadata>
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Internal.ITypeMappingProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Internal.ITypeMappingProvider" ValueType="System.String" />
+          </Key>
+          <Key Name="System.ComponentModel.Composition.CreationPolicy" Enumerable="False">
+            <Value Text="1" ValueType="System.Int32" ConversionType="System.ComponentModel.Composition.CreationPolicy, System.ComponentModel.Composition, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Security.ClientGenerated.Implementation.Internal.SecurityModule+SecurityModuleFactory" Assembly="Microsoft.LightSwitch.Base.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.IModuleFactory" MemberTypes="128">
+        <Accessors>
+          <Accessor Name="SecurityModuleFactory" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ModuleName" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Security" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.IModuleFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Implementation.Serialization.ModelSerializationService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelSerializationService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Serialization.Internal.IModelSerializationService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelItemFactory" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Serialization.Internal.IModelItemFactory" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelItemFactory" />
+          <Accessor Name="set_ModelItemFactory" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelItemStorageNameProvider" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Serialization.Internal.IModelItemStorageNameProvider" ImportCardinality="ZeroOrOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_StorageNameProvider" />
+          <Accessor Name="set_StorageNameProvider" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelDeserializerFactory" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Serialization.Internal.IModelDeserializerFactory" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelDeserializerFactory" />
+          <Accessor Name="set_ModelDeserializerFactory" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelSerializerFactory" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Serialization.Internal.IModelSerializerFactory" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelSerializerFactory" />
+          <Accessor Name="set_ModelSerializerFactory" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Storage.Serialization.Internal.XamlModelDeserializerFactory" Assembly="Microsoft.LightSwitch.Model.Xaml.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelDeserializerFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Serialization.Internal.IModelDeserializerFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Storage.Serialization.Internal.XamlModelSerializerFactory" Assembly="Microsoft.LightSwitch.Model.Xaml.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelSerializerFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Serialization.Internal.IModelSerializerFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Model.Storage.Internal.ModelItemFactory" Assembly="Microsoft.LightSwitch.Model.Xaml.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Model.Serialization.Internal.IModelItemFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Model.Serialization.Internal.IModelItemFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.ClientGenerated.Implementation.SearchTermParserServiceHost" Assembly="Microsoft.LightSwitch.Base.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="System.Collections.Generic.IList(Microsoft.LightSwitch.SearchTerm)(System.String)" MemberTypes="8">
+        <Accessors>
+          <Accessor Name="ParserService" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="System.Collections.Generic.IList(Microsoft.LightSwitch.SearchTerm)(System.String)" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

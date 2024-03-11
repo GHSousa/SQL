@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfColumnSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ColumnSetting>
+    <Index>0</Index>
+    <DisplayIndex>0</DisplayIndex>
+    <Width>77</Width>
+  </ColumnSetting>
+  <ColumnSetting>
+    <Index>1</Index>
+    <DisplayIndex>1</DisplayIndex>
+    <Width>497</Width>
+  </ColumnSetting>
+  <ColumnSetting>
+    <Index>2</Index>
+    <DisplayIndex>2</DisplayIndex>
+    <Width>60</Width>
+  </ColumnSetting>
+  <ColumnSetting>
+    <Index>3</Index>
+    <DisplayIndex>3</DisplayIndex>
+    <Width>397</Width>
+  </ColumnSetting>
+  <ColumnSetting>
+    <Index>4</Index>
+    <DisplayIndex>4</DisplayIndex>
+    <Width>150</Width>
+  </ColumnSetting>
+  <ColumnSetting>
+    <Index>5</Index>
+    <DisplayIndex>5</DisplayIndex>
+    <Width>399</Width>
+  </ColumnSetting>
+  <ColumnSetting>
+    <Index>6</Index>
+    <DisplayIndex>6</DisplayIndex>
+    <Width>150</Width>
+  </ColumnSetting>
+  <ColumnSetting>
+    <Index>7</Index>
+    <DisplayIndex>7</DisplayIndex>
+    <Width>150</Width>
+  </ColumnSetting>
+</ArrayOfColumnSetting>

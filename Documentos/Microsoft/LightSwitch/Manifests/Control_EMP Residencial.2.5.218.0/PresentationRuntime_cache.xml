@@ -1,0 +1,915 @@
+<Catalog Name="PresentationRuntime" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DetailsAutoCompleteBoxFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DetailsAutoCompleteBox" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ValueAutoCompleteBoxFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ValueAutoCompleteBox" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.CollectionButtonFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:CollectionButton" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ConcurrencyVersionChooserControlFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ConcurrencyVersionChooser" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DataGridRowCommandsFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DataGridRowCommands" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ErrorFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch:Error" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.GroupBoxFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:GroupBox" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ColumnsLayoutFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ColumnsLayout" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.TableLayoutFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:TableLayout" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.RowsLayoutFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:RowsLayout" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.TableColumnFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:TableColumnLayout" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ModalWindowPickerDetailsFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ModalWindowPickerDetails" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ModalWindowPickerValueFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ModalWindowPickerValue" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ModalWindowFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ModalWindow" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.StaticImageControlFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:StaticImage" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.StaticLabelFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:StaticLabel" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.SummaryFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Summary" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.TabsFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:TabsLayout" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ValueCustomContentControlFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ValueCustomContentControl" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.PopupEntityEditor" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Client.Implementation.Internal.IEntityEditorService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Client.Implementation.Internal.IEntityEditorService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Presentation.IContentItemService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Presentation.IContentItemService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="screenLoadService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="screenViewManager" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.LabelFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Label" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.ContentItemProxyHelper" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.Internal.IContentItemProxyHelperService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.Internal.IContentItemProxyHelperService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.ContentItemService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IContentItemService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IContentItemService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Logging.Internal.ILoggingService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Logging.Internal.ILoggingService" ImportCardinality="ZeroOrOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_LoggingService" />
+          <Accessor Name="set_LoggingService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IModelHelperService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Internal.IModelHelperService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelHelperService" />
+          <Accessor Name="set_ModelHelperService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.IExecutableInfoService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Services.IExecutableInfoService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ExecutableInfoService" />
+          <Accessor Name="set_ExecutableInfoService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScreenViewManager" />
+          <Accessor Name="set_ScreenViewManager" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.DefaultConcurrencyResolver" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Client.IConcurrencyErrorHandler" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Client.IConcurrencyErrorHandler" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Presentation.IContentItemService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Presentation.IContentItemService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="screenLoadService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="modelService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IModelHelperService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Internal.IModelHelperService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="modelHelper" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="screenViewManager" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="messageBoxService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.EntityDetailsScreenService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Client.Implementation.Internal.IEntityDetailsScreenService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Client.Implementation.Internal.IEntityDetailsScreenService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.Internal.IRuntimeModelItemProvider" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Model.Internal.IRuntimeModelItemProvider" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="defaultScreenProvider" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Errors.CustomControlInstantiationExceptionHanlder" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorListener" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExceptionType" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.Exceptions.CustomControlInstantiationException" ValueType="System.RuntimeType" TypeAssembly="Microsoft.LightSwitch.Client, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorListener" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.UserImageResourcesProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.UserImageResources" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.BuiltInImageResourcesProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BuiltInImageResources" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Screens.PresentationScreenViewFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.Internal.IPresentationScreenViewFactory" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_PresentationFactoryExport" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.Internal.IPresentationScreenViewFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewFactory" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_ScreenViewFactoryExport" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Presentation.IContentItemService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Presentation.IContentItemService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScreenLoadService" />
+          <Accessor Name="set_ScreenLoadService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.SmartLayouts.PictureAndTextFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:PictureAndText" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.SmartLayouts.TextAndPictureFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:TextAndPicture" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.ThemingService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Theming.Definition.Internal.IThemingService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Theming.Definition.Internal.IThemingService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Theming.ITheme" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Theming.ITheme" ImportCardinality="ZeroOrMore" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="_allAvailableThemes" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.BlackTheme" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Theming.ITheme" MemberTypes="32">
+        <Metadata>
+          <Key Name="ThemeId" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Black" ValueType="System.String" />
+          </Key>
+          <Key Name="Version" Enumerable="False">
+            <Value Text="1" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Theming.ITheme" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.BlueGlossyTheme" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Theming.ITheme" MemberTypes="32">
+        <Metadata>
+          <Key Name="ThemeId" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Blue" ValueType="System.String" />
+          </Key>
+          <Key Name="Version" Enumerable="False">
+            <Value Text="1" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Theming.ITheme" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ButtonFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Button" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.CheckBoxFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:CheckBox" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.CollectionCustomContentControlFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:CollectionCustomContentControl" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DataGridRowFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DataGridRow" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DataGridFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DataGrid" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DatePickerFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DatePicker" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DateTimePickerFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DateTimePicker" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DateTimeViewerFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DateTimeViewer" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DateViewerFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DateViewer" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.DetailsCustomContentControlFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:DetailsCustomContentControl" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.LinkFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Link" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ListFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:List" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ScreenCustomContentControlFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ScreenCustomContentControl" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ScreenFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Screen" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.ShellCommandFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:ShellButton" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.TextBoxFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:TextBox" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Presentation.Implementation.Controls.Special.NoControlFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Presentation.IControlFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:NoControl" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Presentation.IControlFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

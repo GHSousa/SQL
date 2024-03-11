@@ -1,0 +1,212 @@
+<Catalog Name="RuntimeServices" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.BinaryTypeExcelFormatterProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="PortName" Enumerable="True">
+            <Value Text="Clipboard" ValueType="System.String" />
+            <Value Text="Excel" ValueType="System.String" />
+          </Key>
+          <Key Name="TypeId" Enumerable="True">
+            <Value Text="Microsoft.LightSwitch:Binary" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.DateTimeOffsetFormatterProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="PortName" Enumerable="True">
+            <Value Text="Excel" ValueType="System.String" />
+            <Value Text="Clipboard" ValueType="System.String" />
+          </Key>
+          <Key Name="TypeId" Enumerable="True">
+            <Value Text="Microsoft.LightSwitch:DateTimeOffset" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.ClipboardDataOutputPort" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.Internal.IDataOutputPort" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Services.Internal.IDataOutputPort" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.CommandHandlerService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.Internal.ICommandHandlerService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Services.Internal.ICommandHandlerService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.VisualStudio.ExtensibilityHosting.VsExportProvisionScope" MemberTypes="16" RequiredTypeIdentity="Microsoft.VisualStudio.ExtensibilityHosting.VsExportProvisionScope" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScopeId" />
+          <Accessor Name="set_ScopeId" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.ExecutableInfoService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.IExecutableInfoService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Services.IExecutableInfoService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="System.ComponentModel.Composition.Hosting.CompositionContainer" MemberTypes="16" RequiredTypeIdentity="System.ComponentModel.Composition.Hosting.CompositionContainer" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_Container" />
+          <Accessor Name="set_Container" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.ColumnPickerFactory" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.Internal.IColumnPickerFactory" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Services.Internal.IColumnPickerFactory" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_DataFormatterService" />
+          <Accessor Name="set_DataFormatterService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.DataFormatterService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" ImportCardinality="ZeroOrMore" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ImportedFormatterProviders" />
+          <Accessor Name="set_ImportedFormatterProviders" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.DateTypeFormatterProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="TypeId" Enumerable="True">
+            <Value Text="Microsoft.LightSwitch:Date" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.EntityExportService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.Internal.IEntityExportService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Services.Internal.IEntityExportService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.Internal.IColumnPickerFactory" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Services.Internal.IColumnPickerFactory" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_EntityColumnPickerFactory" />
+          <Accessor Name="set_EntityColumnPickerFactory" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.ExcelDataOutputPort" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.Internal.IDataOutputPort" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Services.Internal.IDataOutputPort" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Services.Implementation.PrimitiveTypeDataFormatterProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="TypeId" Enumerable="True">
+            <Value Text="Microsoft.LightSwitch:DateTime" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:DateTimeOffset" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Decimal" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Double" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Int16" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Int32" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Int64" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:TimeSpan" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Byte" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:String" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Single" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:SByte" ValueType="System.String" />
+            <Value Text="Microsoft.LightSwitch:Boolean" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.DataFormatter.IDataFormatterProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+</Catalog>

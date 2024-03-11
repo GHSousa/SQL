@@ -1,3 +1,4 @@
+USE CORPORE_RESIDENCIAL
 SELECT
  
 PFUNC.CHAPA
@@ -9,6 +10,7 @@ PFUNC.CHAPA
 ,PFUNC.CODSECAO AS 'SEÇÃO'
 ,PFUNC.CODCOLIGADA AS 'COLIGADA'
 ,PPESSOA.CPF
+,PFUNC.DATAADMISSAO AS 'ADMISSÃO'
 ,PFUNC.NOME AS 'NOME FUNCIONARIO'
 ,GUSUARIO.CODUSUARIO AS 'USUÁRIO RM'
 ,ppessoa.EMAIL
@@ -41,7 +43,7 @@ PFUNC.CHAPA
         --LEFT JOIN GUSRPERFIL        (NOLOCK)    ON (GUSRPERFIL.CODUSUARIO = GUSUARIO.CODUSUARIO)
             WHERE  PFUNC.CODSITUACAO <> 'D' and
                     --GUSUARIO.CODUSUARIO LIKE 'flavio%'  /* usuário RM */
-                    PFUNC.NOME like 'matheus%carmo%'  /* procurar por nome */
+                    PFUNC.NOME like '%joão%andrade%'  /* procurar por nome */
                     --PFUNCAO.NOME like '%contas%receber%' /* FUNÇÃO */
                     --GCCUSTO.NOME LIKE '%compras%' /*DEPARTAMENTO */
 

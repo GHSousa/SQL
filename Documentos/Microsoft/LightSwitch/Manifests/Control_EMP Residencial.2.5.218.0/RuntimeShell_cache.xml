@@ -1,0 +1,632 @@
+<Catalog Name="RuntimeShell" SchemaVersion="12.0.21005.1">
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.UserSettingsService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IUserSettingsService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.View.IUserSettingsService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.Standard.ActiveScreenMonitor" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Implementation.Standard.IActiveScreenMonitor" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.Implementation.Standard.IActiveScreenMonitor" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScreenViewManager" />
+          <Accessor Name="set_ScreenViewManager" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.AssemblyInfoService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="ClientAssembly" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_ClientAssembly" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="System.Reflection.Assembly" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ScreenViewService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Client.Implementation.Internal.IScreenViewManager" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_ViewProviderExport" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Client.Implementation.Internal.IScreenViewManager" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_ViewManagerExport" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewFactory" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewFactory" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScreenViewFactory" />
+          <Accessor Name="set_ScreenViewFactory" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ApplicationScreenStateProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IApplicationStateProvider" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.Internal.IApplicationStateProvider" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ApplicationStateManager" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IApplicationStateManager" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.Internal.IApplicationStateManager" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Client.IClientMessageAlertService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Client.IClientMessageAlertService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_MessageAlertService" />
+          <Accessor Name="set_MessageAlertService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ApplicationWindow" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IApplicationWindow" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.Internal.IApplicationWindow" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ConcurrencyExceptionHandler" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExceptionType" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.ConcurrencyException" ValueType="System.RuntimeType" TypeAssembly="Microsoft.LightSwitch, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Client.IConcurrencyErrorHandler" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Client.IConcurrencyErrorHandler" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="concurrencyErrorHandler" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.DefaultScreenErrorHandler" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExceptionType" Enumerable="False">
+            <Value Text="System.Exception" ValueType="System.RuntimeType" TypeAssembly="mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_MessageBoxService" />
+          <Accessor Name="set_MessageBoxService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ScreenExecutableErrorHandler" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExceptionType" Enumerable="False">
+            <Value Text="System.Exception" ValueType="System.RuntimeType" TypeAssembly="mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_MessageBoxService" />
+          <Accessor Name="set_MessageBoxService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.VisualCollectionErrorHandler" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExceptionType" Enumerable="False">
+            <Value Text="System.Exception" ValueType="System.RuntimeType" TypeAssembly="mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_MessageBoxService" />
+          <Accessor Name="set_MessageBoxService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ApplicationErrorHandler" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExceptionType" Enumerable="False">
+            <Value Text="System.Exception" ValueType="System.RuntimeType" TypeAssembly="mscorlib, Version=5.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Client.IClientMessageAlertService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Client.IClientMessageAlertService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_MessageAlertService" />
+          <Accessor Name="set_MessageAlertService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.UnhandledExceptionHandler" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExceptionType" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.UnhandledExceptionException" ValueType="System.RuntimeType" TypeAssembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.ErrorHandler.IErrorHandler" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" MemberTypes="4" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" ImportCardinality="ZeroOrOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="messageBoxService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.RuntimeMessageBoxProvider" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Alert.IMessageAlertService" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_MessageAlertService" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.BaseServices.Alert.IMessageAlertService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Client.IClientMessageAlertService" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_ClientMessageAlertService" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Client.IClientMessageAlertService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_MessageBoxService" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.Internal.IRuntimeMessageBoxService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScreenViewManager" />
+          <Accessor Name="set_ScreenViewManager" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Internal.Implementation.ShellService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.Internal.IShellService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.Internal.IShellService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.IShell" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.IShell" ImportCardinality="ZeroOrMore" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_AllAvailableShells" />
+          <Accessor Name="set_AllAvailableShells" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.Standard.StandardShell" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.IShell" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.RichClient:Standard" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.IShell" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.Standard.ActiveScreensView" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Contract.ShellView" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_Control" />
+        </Accessors>
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.ActiveScreensView" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="System.Windows.UIElement" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScreenViewManager" />
+          <Accessor Name="set_ScreenViewManager" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IScreenValidationViewModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IScreenValidationViewModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ValidationViewModelService" />
+          <Accessor Name="set_ValidationViewModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Diagnostics.Internal.IDiagnosticObjectTracker" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Diagnostics.Internal.IDiagnosticObjectTracker" ImportCardinality="ZeroOrMore" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_diagnosticObjectTrackers" />
+          <Accessor Name="set_diagnosticObjectTrackers" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.Standard.CurrentUserControl" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Contract.ShellView" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_Control" />
+        </Accessors>
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.CurrentUser" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="System.Windows.UIElement" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.Implementation.Standard.LogoView" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Contract.ShellView" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_Control" />
+        </Accessors>
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.LogoView" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="System.Windows.UIElement" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.ViewModels.Implementation.CurrentUser.CurrentUserViewModel" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_ShellViewModelExport" />
+        </Accessors>
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.CurrentUserViewModel" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.CurrentUser.ICurrentUserViewModel" MemberTypes="16">
+        <Accessors>
+          <Accessor Name="get_CurrentUserViewModelExport" />
+        </Accessors>
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.CurrentUser.ICurrentUserViewModel" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.ViewModels.Implementation.Login.LoginViewModel" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.LoginViewModel" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions />
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.ViewModels.Implementation.Logo.LogoViewModel" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.LogoViewModel" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.ResourceService.IResourceService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ResourceService" />
+          <Accessor Name="set_ResourceService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.ViewModels.Implementation.ActiveScreens.ScreenValidationViewModelService" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IScreenValidationViewModelService" MemberTypes="32">
+        <Metadata>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IScreenValidationViewModelService" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.ViewModels.Implementation.ActiveScreens.ActiveScreensViewModel" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.ActiveScreensViewModel" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IScreenValidationViewModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IScreenValidationViewModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ValidationViewModelService" />
+          <Accessor Name="set_ValidationViewModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.ViewModels.Implementation.Commands.CommandsViewModel" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.CommandsViewModel" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.BaseServices.Notifications.INotificationService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_NotificationService" />
+          <Accessor Name="set_NotificationService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Shell.View.IScreenViewService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ScreenViewManager" />
+          <Accessor Name="set_ScreenViewManager" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+  <Part Type="Microsoft.LightSwitch.Runtime.Shell.ViewModels.Implementation.Navigation.NavigationViewModel" Assembly="Microsoft.LightSwitch.Client.Internal, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" IsDisposalRequired="False">
+    <Metadata />
+    <ExportDefinitions>
+      <ExportDefinition ContractName="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" MemberTypes="32">
+        <Metadata>
+          <Key Name="Name" Enumerable="False">
+            <Value Text="Default.NavigationViewModel" ValueType="System.String" />
+          </Key>
+          <Key Name="ExportTypeIdentity" Enumerable="False">
+            <Value Text="Microsoft.LightSwitch.Runtime.Shell.ViewModels.IShellViewModel" ValueType="System.String" />
+          </Key>
+        </Metadata>
+      </ExportDefinition>
+    </ExportDefinitions>
+    <ImportDefinitions>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Model.IModelService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Model.IModelService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ModelService" />
+          <Accessor Name="set_ModelService" />
+        </GetAccessors>
+      </ImportDefinition>
+      <ImportDefinition ContractName="Microsoft.LightSwitch.Runtime.Services.IExecutableInfoService" MemberTypes="16" RequiredTypeIdentity="Microsoft.LightSwitch.Runtime.Services.IExecutableInfoService" ImportCardinality="ExactlyOne" IsRecomposable="False" RequiredCreationPolicy="Any">
+        <GetAccessors>
+          <Accessor Name="get_ExecutableInfoService" />
+          <Accessor Name="set_ExecutableInfoService" />
+        </GetAccessors>
+      </ImportDefinition>
+    </ImportDefinitions>
+  </Part>
+</Catalog>
